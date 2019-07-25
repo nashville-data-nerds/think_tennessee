@@ -9,7 +9,7 @@ A place to coordinate and collaborate around analytic work with [Think Tennessee
   - Your GitHub account to be added to the organization
   - Your desired AWS account in order to be added to the Nashville Data Nerds AWS account which is where all data will be shared via S3.
   
-# Reason for NDA
+# Reason for NDA (Non-Disclosure Agreement)
 
 To provide context around the NDA, the data we will be working with is from the https://www.epi.org/ and is not publicly available and is shared with Think Tennessee for the explicit purpose of policy research.  
 If you are not familiar with NDA's, although some legalize you may skim over, I highly recommend you always fully read an NDA before signing.  Since the the data we are receiving is not publicly available, we need to be careful and respectful of Think Tennessee allowing us to use it.
