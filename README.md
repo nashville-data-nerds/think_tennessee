@@ -16,9 +16,9 @@ If you are not familiar with NDA's, although some legalize you may skim over, I 
 
 If you have any questions about what is okay or not okay, please reach out to me, adantonison@gmail.com or @adantonison on slack, and I would be happy to talk further.  I think this is another layer of good experience because most companies you will work for require you to sign an NDA and will have restrictions around using their data.
 
-## Things to do with the https://www.epi.org/ data
+## Things _to do_ with the https://www.epi.org/ data
 - You can of course download the data, explore it, and gain a better understanding of it.  But all end results should be targeted towards the work we are doing for Think Tennessee. :slightly_smiling_face: 
 
-## Things not to do with the https://www.epi.org/ data
+## Things _not to do_ with the https://www.epi.org/ data
 - Upload to websites like GitHub or data platforms like https://data.world/.
 - Please do not use for personal projects, even if those projects are not-for-profit.  
