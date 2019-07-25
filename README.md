@@ -20,5 +20,5 @@ If you have any questions about what is okay or not okay, please reach out to me
 - You can of course download the data, explore it, and gain a better understanding of it.  But all end results should be targeted towards the work we are doing for Think Tennessee. :slightly_smiling_face: 
 
 ## Things _not to do_ with the https://www.epi.org/ data
-- Upload to websites like GitHub or data platforms like https://data.world/.
+- Please do not upload to websites like GitHub or data platforms like https://data.world/.
 - Please do not use for personal projects, even if those projects are not-for-profit.  
