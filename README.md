@@ -4,7 +4,7 @@ A place to coordinate and collaborate around analytic work with [Think Tennessee
 # Steps to getting started
 
 1. Fill out this form if you have not already as it will inform me about your interest and experience [Non-profit Data Volunteering](https://forms.gle/bHpH2MbZNsPEK64K7)
-2. Sign the NDA and e-mail to adantonison@gmail.com
+2. Sign the [NDA](https://github.com/nashville-data-nerds/think_tennessee/blob/master/documents/ThinkTN%20Form%20Non-Disclosure%20Agreement_Data%20Nerds.pdf) and e-mail to adantonison@gmail.com
 3. Contact adantonison@gmail.com with the following information:
   - Your GitHub account to be added to the organization
   - Your desired AWS account in order to be added to the Nashville Data Nerds AWS account which is where all data will be shared via S3.
