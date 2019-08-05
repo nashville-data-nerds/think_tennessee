@@ -12,9 +12,9 @@ A place to coordinate and collaborate around analytic work with [Think Tennessee
 # Reason for NDA (Non-Disclosure Agreement)
 
 To provide context around the NDA, the data we will be working with is from the https://www.epi.org/ and is not publicly available and is shared with Think Tennessee for the explicit purpose of policy research.  
-If you are not familiar with NDA's, although some legalize you may skim over, I highly recommend you always fully read an NDA before signing.  Since the the data we are receiving is not publicly available, we need to be careful and respectful of Think Tennessee allowing us to use it.
+If you are not familiar with NDA's, I highly recommend you always fully read an NDA before signing.  Since the the data we are receiving is not publicly available, we need to be careful and respectful of Think Tennessee allowing us to use it.
 
-If you have any questions about what is okay or not okay, please reach out to me, adantonison@gmail.com or @adantonison on slack, and I would be happy to talk further.  I think this is another layer of good experience because most companies you will work for require you to sign an NDA and will have restrictions around using their data.
+If you have any questions about what is okay or not okay, please reach out to me, adantonison@gmail.com or @adantonison on slack, and I would be happy to talk further.
 
 ## Things _to do_ with the https://www.epi.org/ data
 - You can of course download the data, explore it, and gain a better understanding of it.  But all end results should be targeted towards the work we are doing for Think Tennessee. :slightly_smiling_face: 
