@@ -26,3 +26,15 @@ If you have any questions about what is okay or not okay, please reach out to me
 # Analysis Plan
 
 This is the Analysis Plan for this project: [State of Working Families in Tennessee Analysis Plan](https://docs.google.com/document/d/15E7G7LibFNAwqIK3k5wSeN-T7lJCnGOPJ9al89iQw9k/edit?usp=sharing)
+
+# Meeting Minutes
+
+To see what is discussed in meetings, please checkout our [Meeting Minutes Google Doc](https://docs.google.com/document/d/1_nruqEVjQs1jA1xMakpx-6IIdAKPxp5onBrjgKeg7Vs/edit?usp=sharing)
+
+# Project Workflow
+
+## Overall Strategy
+
+To reduce the amount of tools or websites people will need to access, we will be 
+
+## Manag
