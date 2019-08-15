@@ -41,6 +41,10 @@ To reduce the amount of tools or websites people will need to access, we will be
 
 Tasks will be managed via GitHub issues.  When creating an issue, please provide as much deatil as possible and apply appropriate labels.
 
+## Deliverable Feedback
+
+Feedback for deliverables will be done through GitHub Pull requests.  This will allow for us to iterate within GitHub and track those changes all within a pull request which can be tied to an issue in GitHub that will provide the scope of the task.
+
 ## Technology
 
 We will be using Python 3.7.  We will be using Anaconda to help manage both python version as well as package management.  Please see the following websites to get familiar with using Anaconda and managing environemnts within Anaconda.
