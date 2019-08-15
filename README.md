@@ -51,3 +51,5 @@ We will be using Python 3.7.  We will be using Anaconda to help manage both pyth
 - [Installing Anaconda](https://docs.anaconda.com/anaconda/install/)
 - [Anaconda Getting Started](https://docs.anaconda.com/anaconda/usera-guide/getting-started/)
 - [Managing Environments in Anaconda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+
+This documentation covers how to add an environment to your Jupyter Notebook/Lab kernel listing. [Add kernel to Jupyter Notebook/Lab](https://ipython.readthedocs.io/en/stable/install/kernel_install.html])
