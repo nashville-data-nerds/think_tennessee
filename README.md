@@ -35,6 +35,15 @@ To see what is discussed in meetings, please checkout our [Meeting Minutes Googl
 
 ## Overall Strategy
 
-To reduce the amount of tools or websites people will need to access, we will be 
+To reduce the amount of tools or websites people will need to access, we will be be managing all code and deliverables within GitHub. 
 
-## Manag
+## Task Management
+
+Tasks will be managed via GitHub issues.  When creating an issue, please provide as much deatil as possible and apply appropriate labels.
+
+## Technology
+
+We will be using Python 3.7.  We will be using Anaconda to help manage both python version as well as package management.  Please see the following websites to get familiar with using Anaconda and managing environemnts within Anaconda.
+- [Installing Anaconda](https://docs.anaconda.com/anaconda/install/)
+- [Anaconda Getting Started](https://docs.anaconda.com/anaconda/usera-guide/getting-started/)
+- [Managing Environments in Anaconda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
