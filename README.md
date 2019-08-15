@@ -26,3 +26,30 @@ If you have any questions about what is okay or not okay, please reach out to me
 # Analysis Plan
 
 This is the Analysis Plan for this project: [State of Working Families in Tennessee Analysis Plan](https://docs.google.com/document/d/15E7G7LibFNAwqIK3k5wSeN-T7lJCnGOPJ9al89iQw9k/edit?usp=sharing)
+
+# Meeting Minutes
+
+To see what is discussed in meetings, please checkout our [Meeting Minutes Google Doc](https://docs.google.com/document/d/1_nruqEVjQs1jA1xMakpx-6IIdAKPxp5onBrjgKeg7Vs/edit?usp=sharing)
+
+# Project Workflow
+
+## Overall Strategy
+
+To reduce the amount of tools or websites people will need to access, we will be be managing all code and deliverables within GitHub. 
+
+## Task Management
+
+Tasks will be managed via GitHub issues.  When creating an issue, please provide as much deatil as possible and apply appropriate labels.
+
+## Deliverable Feedback
+
+Feedback for deliverables will be done through GitHub Pull requests.  This will allow for us to iterate within GitHub and track those changes all within a pull request which can be tied to an issue in GitHub that will provide the scope of the task.
+
+## Technology
+
+We will be using Python 3.7.  We will be using Anaconda to help manage both python version as well as package management.  Please see the following websites to get familiar with using Anaconda and managing environemnts within Anaconda.
+- [Installing Anaconda](https://docs.anaconda.com/anaconda/install/)
+- [Anaconda Getting Started](https://docs.anaconda.com/anaconda/usera-guide/getting-started/)
+- [Managing Environments in Anaconda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+
+This documentation covers how to add an environment to your Jupyter Notebook/Lab kernel listing. [Add kernel to Jupyter Notebook/Lab](https://ipython.readthedocs.io/en/stable/install/kernel_install.html])
