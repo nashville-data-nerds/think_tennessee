@@ -10,6 +10,7 @@ In order to link a pull request to an issue, you simply need to type `#` and the
 If you have not already, please see [Installing Anaconda](https://docs.anaconda.com/anaconda/install/) for how to setup anaconda. Once you have anaconda setup, when you open a terminal, you should see a `(base)` in front of your username.
 
 ```
+conda env create -f /path/to/environment.yml
 ```
 
 #### Windows
