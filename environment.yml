@@ -5,6 +5,7 @@ dependencies:
   - asn1crypto=0.24.0
   - astroid=2.2.5
   - backcall=0.1.0
+  - backports=1.0
   - blas=1.0
   - boto3=1.9.199
   - botocore=1.12.199
@@ -80,5 +81,8 @@ dependencies:
   - xz=5.2.4
   - zeromq=4.3.1
   - zlib=1.2.11
+  - pip:
+    - configparser==3.8.1
+    - --editable=git+git://github.com/nashville-data-nerds/datanerdpy
 prefix: //anaconda3/envs/think_tn
 
