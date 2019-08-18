@@ -83,6 +83,6 @@ dependencies:
   - zlib=1.2.11
   - pip:
     - configparser==3.8.1
-    - --editable=git+git://github.com/nashville-data-nerds/datanerdpy
+    - --editable=git+git://github.com/nashville-data-nerds/datanerdpy#egg=datanerdpy
 prefix: //anaconda3/envs/think_tn
 
