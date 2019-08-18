@@ -4,5 +4,5 @@
 # you can activate base with the following command:
 # conda activate base
 ######
-conda remove --name think_tn --all
+conda remove --name think_tn --all -y
 conda env create -f ../environment.yml
