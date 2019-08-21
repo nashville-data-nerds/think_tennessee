@@ -45,6 +45,10 @@ Tasks will be managed via GitHub issues.  When creating an issue, please provide
 
 Feedback for deliverables will be done through GitHub Pull requests.  This will allow for us to iterate within GitHub and track those changes all within a pull request which can be tied to an issue in GitHub that will provide the scope of the task.
 
+## Source Control Strategy
+
+We will be using a trunk based source control strategy.  To summarize, you should create branches off of master for each issue you work on and you should make note the issue you are working in the Pull Request.  I encourage people to open a pull request as they are working on the issue to help with getting timely feedback. See [here](https://trunkbaseddevelopment.com/) if you are interested in more details around the Trunk Based source control strategy.
+
 ## Technology
 
 We will be using Python 3.7.  We will be using Anaconda to help manage both python version as well as package management.  Please see the following websites to get familiar with using Anaconda and managing environemnts within Anaconda.
