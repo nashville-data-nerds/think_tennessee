@@ -14,9 +14,9 @@
 	- Text	#1d874a
 - Yellow	#f8b441 #f8b44c
 
-"Inactive" text is dark grey, grey, or white; objects are white or green
+- "*Inactive*" text is dark grey, grey, or white; objects are white or green
 
-"Active" text is green; objects are green or yellow
+- "*Active*" text is green; objects are green or yellow
 
 ## Font:
 
