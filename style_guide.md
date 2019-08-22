@@ -1,16 +1,16 @@
 # ThinkTennessee Design Specs
 
-Style:
+*Style:*
 Sleek, minimalist
 
 Color:
-White	#ffffff
-Gray	#808285	#272727	#403a37 	#7a7a7a	 #f7f7f7
-Green
-	Object	#14884b	#40c057	#8cd99a 	#9fdfab
-	Border	#37b24d	#66cc78
-	Text	#1d874a
-Yellow	#f8b441 #f8b44c
+- White	#ffffff
+- Gray	#808285	#272727	#403a37 	#7a7a7a	 #f7f7f7
+- Green
+	- Object	#14884b	#40c057	#8cd99a 	#9fdfab
+	- Border	#37b24d	#66cc78
+	- Text	#1d874a
+- Yellow	#f8b441 #f8b44c
 
 "Inactive" text is dark grey, grey, or white; objects are white or green
 
