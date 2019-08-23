@@ -2,9 +2,13 @@
 
 In order to link a pull request to an issue, you simply need to type `#` and then the number of the issue, such as `#13`.  This will create a link to the pull request.
 
+### Python script for non-visuals
+
+If you are creating a python script for doing non-visual related work such as modeling, statistical analysis, or data processing, please create a descriptive directory name for the code.  Either include comments within the code that explains what is being done or a markdown document that describes what you are doing.
+
 ### Creating a Visual with a Python Script
 
-If you are creating a visual with a python script, please create a descriptive folder name in the `code` directory and include the following in it:
+If you are creating a visual with a python script, please create a descriptive directory name in the `code` directory and include the following in it:
 - A brief markdown document that includes relevant information such as the data source you used and a description of the visual.
 - The python script that generates the visuals.
 - A rendered version of the visual
