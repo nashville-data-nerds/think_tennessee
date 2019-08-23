@@ -66,8 +66,8 @@ y_pos = np.arange(len(bars))
 # Initiate figure
 fig = plt.figure()
 ax = plt.subplot(111)
-ax.bar(x, negative_data, width=0.7, color='#0a3317')
-ax.bar(x, positive_data, width=0.7, color='#22bd53')
+ax.bar(x, negative_data, width=0.7, color='#272727')
+ax.bar(x, positive_data, width=0.7, color='#40c057')
 rects = ax.patches
 
 # Label x-axis
