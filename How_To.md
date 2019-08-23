@@ -2,6 +2,18 @@
 
 In order to link a pull request to an issue, you simply need to type `#` and then the number of the issue, such as `#13`.  This will create a link to the pull request.
 
+### Creating a Visual with a Python Script
+
+If you are creating a visual with a python script, please create a descriptive folder name in the `code` directory and include the following in it:
+- A brief markdown document that includes relevant information such as the data source you used and a description of the visual.
+- The python script that generates the visuals.
+- A rendered version of the visual
+
+### Creating a Visual with a Jupyter Notebook/Lab
+
+When creating a visual within a notebook, please put it in the `notebooks` directory and provide a descriptive name of the notebook and please do the following:
+- Include a brief markdown cell that explains the data source and the visual you are creating.
+- When you submit the notebook, please have the visual rendered so it can be seen in GitHub for review.
 
 ### How to setup your Anaconda environment
 
