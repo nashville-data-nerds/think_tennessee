@@ -92,3 +92,7 @@ heights = list(df['change_in_jobs'])
 for rect, label, height in zip(rects, labels, heights):
     ax.text(rect.get_x() + rect.get_width() / 2, height+5, label,
             ha='center', va='bottom', fontsize=8)
+
+plt.savefig('job_sector_breakdowns.png',
+            dpi=300,
+            bbox_inches='tight')

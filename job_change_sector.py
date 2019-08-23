@@ -90,3 +90,7 @@ for rect, label, height in zip(rects, labels, heights):
     else:
         ax.text(rect.get_x() + rect.get_width() / 2, height-20, label,
                 ha='center', va='bottom')
+
+plt.savefig('job_change_sector.png',
+            dpi=300,
+            bbox_inches='tight')
