@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+import seaborn as sns
 
 def color_scheme(name):
     """
@@ -26,6 +27,10 @@ This may not be the most elegant solution, but the idea is to build up lists
 of year and unemployment rate by looping through each year's columns
 """
 
+sns.set()
+sns.set_style("white")
+pal = sns.color_palette('YlGn',2)
+sns.set_palette(pal)
 fig, ax = plt.subplots(figsize=(8,4))
 for category, name in zip([us, tenn], ['United States', 'Tennessee']):
     year = list()
@@ -34,7 +39,7 @@ for category, name in zip([us, tenn], ['United States', 'Tennessee']):
         year.append(i)
         rate = category['Nunemp{}{}'.format(str(i)[2],str(i)[3])] / category['Nlf{}{}'.format(str(i)[2],str(i)[3])]
         unemployment.append(rate.values*100)
-    ax.plot(year, unemployment, label=name, color=color_scheme(name))
+    ax.plot(year, unemployment, label=name)
 plt.legend(loc=2,
         prop={'size': 10},
         bbox_to_anchor=(1.05,1),
