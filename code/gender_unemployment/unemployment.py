@@ -12,7 +12,7 @@ def color_scheme(name):
 
     return color[name]
 
-df = pd.read_csv('../../raw/epi_labor_force_data_raw.csv')
+df = pd.read_csv('../../data/raw/epi_labor_force_data_raw.csv')
 
 """
 Going to grab data from the US as well as Tennessee

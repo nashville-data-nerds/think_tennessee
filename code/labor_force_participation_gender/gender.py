@@ -4,7 +4,7 @@ import seaborn as sns
 import numpy as np
 
 
-df = pd.read_csv('../../raw/epi_labor_force_data_raw.csv')
+df = pd.read_csv('../../data/raw/epi_labor_force_data_raw.csv')
 
 """
 Going to grab the following splits of data:
