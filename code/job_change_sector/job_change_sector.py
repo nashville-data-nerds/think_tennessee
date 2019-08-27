@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 
 
 # CSV file name
-input_csv = 'epi_jobs_raw.csv'
+input_csv = '../../data/raw/epi_jobs_raw.csv'
 
 # Read in Pandas dataframe
 df_all = pd.read_csv(input_csv, encoding='ISO-8859-1')
