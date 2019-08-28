@@ -2,6 +2,10 @@
 
 In order to link a pull request to an issue, you simply need to type `#` and then the number of the issue, such as `#13`.  This will create a link to the pull request.
 
+### Data should be sourced from data/ folder
+
+All data should be sourced from the `data/` folder.  This will help others when they are reviewing your code since it sets up a standard way for files to be managed.
+
 ### Python script for non-visuals
 
 If you are creating a python script for doing non-visual related work such as modeling, statistical analysis, or data processing, please create a descriptive directory name for the code.  Either include comments within the code that explains what is being done or a markdown document that describes what you are doing.
