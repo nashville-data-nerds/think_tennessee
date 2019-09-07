@@ -1,0 +1,26 @@
+# Details about the csv files
+
+## Epi Labor Force Data Raw
+
+**Varible Code**
+Each variable is followed by a number indicating the year.
+
+- Npop: Population
+- Nfl: Number in fabor force*
+- Nemp: Number employed
+- Nunemp: Number unemployed
+- Nlong: Number long-term unemployed**
+- Npt: Number part-time*** - this doesn't appear until 94'
+- Nptec: IDK (a little help please) - this doesn't appear until 94'
+- Ndisc: IDK (a little help please) - this doesn't appear until 94'
+
+* When calculating percents use this number (e.g. %unemplyed = Nfl/Nemp)
+** The long-term unemployment rate is the share of workers who have been jobless for 27 weeks or more [(source)[https://www.epi.org/publication/long-term-unemployment-scarring/]].
+*** Unsure if this is by choice. I think it is lumping together people that want part-time work with those that do not.
+
+** Category Code**
+- Young: 21-25 (source)[https://www.epi.org/publication/class-of-2019-college-edition/]
+- Prime Age: 25-54 (source)[https://www.epi.org/blog/prime-age-employment-to-population-ratio-remains-terribly-depressed/]
+- Old
+- API: Asian Pacific Islander
+- Other: this is part of the race category
