@@ -1,0 +1,131 @@
+%matplotlib inline
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+import matplotlib
+matplotlib.style.use('ggplot')
+
+
+## Reading data
+df = pd.read_csv('/Users/daniell2/Desktop/Data_Specialization/ThinkTN/epi_labor_force_data_raw.csv').set_index('categ')
+
+## Selecting columns (2018) and location needed
+tn = df[['Nemp18', 'Nunemp18','Nlong18','Npt18']][(df.geo=='Tennessee')]
+
+## Adding Unemployed and long-term unemployed
+total = []
+for index, row in tn.iterrows():
+    total.append(row.Nunemp18 + row.Nlong18)
+tn['Unemployed']=total
+
+## Figure for gender
+gender = tn.loc['Male':'Female', :]
+
+# Identifying columns to plot
+Employed = gender['Nemp18']
+Part_time = gender['Npt18']
+Unemployed = gender['Unemployed']
+
+# Setting up graph
+n = len(gender)
+ind = np.arange(n)
+fig, ax=plt.subplots()
+margin = 0.05
+width = (1.-2.*margin)/n
+xdata = ind+margin+(n*width)
+
+# Plotting
+em = plt.bar(xdata, Employed, width, label='Employed', color='#14884b')
+pt = plt.bar(xdata, Part_time, width, label= 'Part-time', color='#40c057',bottom=Employed)
+unem = plt.bar(xdata, Part_time, width, label= 'Unemployed', color='#8cd99a', bottom=Employed+Part_time)
+plt.title('2018 Employment Type by Gender')
+plt.xlabel('Employement Type')
+plt.xticks(xdata, ('Male', 'Female'))
+plt.legend(loc=9)
+plt.show()
+plt.savefig('gender.png')
+
+## Figure for Age
+age = tn.loc['Young':'Old', :]
+
+# Identifying columns to plot
+Employed = gender['Nemp18']
+Part_time = gender['Npt18']
+Unemployed = gender['Unemployed']
+
+# Setting up graph
+n = len(gender)
+ind = np.arange(n)
+fig, ax=plt.subplots()
+margin = 0.05
+width = (1.-2.*margin)/n
+xdata = ind+margin+(n*width)
+
+# Plotting
+em = plt.bar(xdata, Employed, width, label='Employed', color='#14884b')
+pt = plt.bar(xdata, Part_time, width, label= 'Part-time', color='#40c057',bottom=Employed)
+unem = plt.bar(xdata, Part_time, width, label= 'Unemployed', color='#8cd99a', bottom=Employed+Part_time)
+plt.title('2018 Employment Type by Gender')
+plt.xlabel('Employement Type')
+plt.xticks(xdata, ('Male', 'Female'))
+plt.legend(loc=9)
+plt.show()
+plt.savefig('gender.png')
+
+
+###################
+
+## Figure for Race
+race = tn.loc['White':'Other', :]
+
+# Identifying columns to plot
+Employed = race['Nemp18']
+Part_time = race['Npt18']
+Unemployed = race['Unemployed']
+
+# Setting up graph
+n = len(race)
+ind = np.arange(n)
+fig, ax=plt.subplots()
+width = .45
+
+
+# Plotting
+em = plt.bar(ind, Employed, width, label='Employed', color='#14884b')
+pt = plt.bar(ind, Part_time, width, label= 'Part-time', color='#40c057',bottom=Employed)
+unem = plt.bar(ind, Part_time, width, label= 'Unemployed', color='#8cd99a', bottom=Employed+Part_time)
+plt.title('2018 Employment Type by Race')
+plt.xlabel('Employement Type')
+plt.xticks(ind, ('White', 'Black', 'Hispanic','API','Other'))
+plt.legend(loc=1)
+plt.show()
+plt.savefig('race.png')
+
+
+###############
+
+## Figure for Education
+educ = tn.loc['Less than HS':'Bachelors', :]
+
+# Identifying columns to plot
+Employed = educ['Nemp18']
+Part_time = educ['Npt18']
+Unemployed = educ['Unemployed']
+
+# Setting up graph
+n = len(educ)
+ind = np.arange(n)
+fig, ax=plt.subplots()
+width = .45
+
+
+# Plotting
+em = plt.bar(ind, Employed, width, label='Employed', color='#14884b')
+pt = plt.bar(ind, Part_time, width, label= 'Part-time', color='#40c057',bottom=Employed)
+unem = plt.bar(ind, Part_time, width, label= 'Unemployed', color='#8cd99a', bottom=Employed+Part_time)
+plt.title('2018 Employment Type by Education')
+plt.xlabel('Employement Type')
+plt.xticks(ind, ('Less Than HS', 'High School', 'Some College','Bachelors'))
+plt.legend(loc=2)
+plt.show()
+plt.savefig('education.png')
