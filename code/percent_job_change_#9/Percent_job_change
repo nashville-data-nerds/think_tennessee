@@ -1,0 +1,49 @@
+# Percent job growth Jan. 2000-Feb. 2019
+# See State of Working Ohio - Figure 12 - https://www.policymattersohio.org/research-policy/fair-economy/work-wages/state-of-working-ohio/state-of-working-ohio-2018-inequality-amid-job-growth
+
+
+import pandas as pd
+from matplotlib import pyplot
+import matplotlib.pyplot as plt
+import numpy as np
+
+
+## Reading in data
+df = pd.read_csv('/Users/daniell2/Desktop/Data_Specialization/ThinkTN/epi_jobs_raw.csv')
+
+## Looking at total non-farm jobs seaonally adjusted
+
+df = df[(df.super=='Total Nonfarm')]
+df = df[(df.seasonal=='S')]
+
+## Getting the Month January
+df_month = df[['United States', 'Tennessee', 'year']][(df.month=='January')]
+df1990 = df_month[(df_month.year==1990)].set_index('year')
+df2019 = df_month[(df_month.year==2019)].set_index('year')
+
+my_df = pd.concat([df1990,df2019])
+
+## Calculating Percent Change
+percent = my_df.astype(float).pct_change()
+percent = percent.loc[2019,:]
+percent = percent*100
+
+
+
+# Setting up graph
+ind = np.arange(2)
+fig, ax=plt.subplots()
+margin = 0.05
+width = (1.-2.*margin)/2
+xdata = ind+margin+(2*width)
+
+# Plotting
+font = {'fontname':'Lato sans'}
+
+pl = plt.bar(xdata, percent, width, color=['#14884b','#40c057']) 
+plt.title('Percent Job Change, Jan 1990 - Jan 2019', color='#272727', **font)
+plt.xticks(xdata, ('United States', 'Tennessee'), color='#403a37')
+ax.xaxis.label.set_color('#1d874a')
+plt.ylim([0,50])
+plt.show()
+plt.savefig('percent_job_change.png')
