@@ -43,7 +43,9 @@ Tasks will be managed via GitHub issues.  When creating an issue, please provide
 
 ## Deliverable Feedback
 
-Feedback for deliverables will be done through GitHub Pull requests.  This will allow for us to iterate within GitHub and track those changes all within a pull request which can be tied to an issue in GitHub that will provide the scope of the task.
+Feedback for deliverables will be done through Google Docs.  This will be faciliated by first opening a Pull Request in GitHub so your code can be reviewed.  After you have spun up the Pull Request, please copy the visual as well as the description of the visual into a Google Doc stored here (GDrive/ThinkTennessee/Visualizations)[https://drive.google.com/drive/folders/12TZpmHI1ziUb9ebUWdymNrJVhNydIETm?usp=sharing] with the same name as the folder.  As you iterate on the visual, please attend the subsequent visuals to the Google Doc so we can the adjustments to the visuals.
+
+Please include a link in the Pull Request to the Google Doc and a link to the Google Doc in the Pull Request.  This will allow for a clear association between the code and the visual being worked on.
 
 ## Source Control Strategy
 
